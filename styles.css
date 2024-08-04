@@ -1,0 +1,119 @@
+body {
+    background-color: #FFFFFF;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    max-width: 1728px;
+    height: 1117px;
+}
+
+h1 {
+    position: absolute;
+    width: 237px;
+    height: 75px;
+    top: 97px;
+    left: 745px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 75px;
+    color: #000000;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+#noteInput {
+    position: absolute;
+    width: 494px;
+    height: 139px;
+    border: 2px solid #818181;
+    font-size: 14px;
+    box-sizing: border-box;
+    left: 617px;
+    top: 206px;
+    text-align: left;
+    vertical-align: top;
+    padding: 10px; /* Ensure the text starts from the top left */
+    resize: none; /* Prevent resizing */
+}
+
+.error {
+    color: #F80000;
+    width: 155px;
+    height: 24px;
+    position: absolute;
+    left: 617px;
+    top: 355px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+button {
+    position: absolute;
+    width: 155px;
+    height: 40px;
+    left: 786px;
+    top: 395px;
+    background-color: #020202;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+#notesContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    max-width: 1728px;
+}
+
+.note {
+    display: flex;
+    flex-direction: column;
+    background-color: #096A6A;
+    padding: 26px;
+    width: 216px;
+    height: 209px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    text-align: left;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+#noteInput {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+p {
+    width: 155px;
+    height: 24px;
+    top: 588px;
+    left: 786px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+}
